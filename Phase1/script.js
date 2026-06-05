@@ -202,3 +202,180 @@
 
 
 // ---
+
+
+// ## Numbers & Math
+
+// 1. Round `4.7` using `Math.round()`.
+// console.log(Math.round(4.7))
+
+// 2. Find the square root of 81.
+// console.log(Math.sqrt(81))
+
+
+// 3. Find the maximum number from `10, 20, 5, 99`.
+// console.log(Math.max(10, 20, 5, 99))
+
+// 4. Generate a random number between 1 and 10.
+// console.log(Math.random()*10)+1
+
+// 5. Convert `"99.99"` into an integer.
+// console.log(parseInt(99.99));
+
+
+// 6. Check whether `25` is an integer or not.
+// console.log(Number.isInteger(25));
+
+// 7. Use `toFixed(2)` on `3.141592`.
+// let n = 3.141592;
+// console.log(n.toFixed(2))
+// // ---
+
+
+
+// ## Conditionals
+
+// 1. Check whether a number is positive or negative.
+// let a = 12
+// if(a>0){
+//   console.log("POSITIVE")
+// }else{
+//   console.log("NEGATIVE")
+// }
+
+// 2. Check whether a number is even or odd.
+// let b = 3
+// if(b%2===0){
+//   console.log("EVEN")
+// }else{
+//   console.log("ODD")
+// }
+
+// 3. Check whether a person is eligible to vote.
+// let age = 18
+
+// if(age>=18){
+//   console.log("Perseon is elegible to vote")
+// }
+// else{
+//   console.log("Not eligible")
+// }
+
+// 4. Find the largest among two numbers.
+// let a =20
+// let b=55
+
+// if(a>b){
+//   console.log(`${a} is largest among ${a} and ${b}`)
+// } else{
+//    console.log(`${b} is largest among ${a} and ${b}`)
+// }
+
+// 5. Find the largest among three numbers.
+// let a= 33
+// let b =2
+// let c =190
+
+// if(a>b && a>c) console.log(`${a} is largest among ${a},${b},${c}`);
+// else if(b>a && b>c) console.log(`${b} is largest among ${a},${b},${c}`);
+// else console.log(`${c} is largest among ${a},${b},${c}`);
+
+// 6. Check whether a year is a leap year.
+// LEAP YEAR IS A YEAR WHICH IS DIVISIBLE BY 4 AND THAT YEAR WHICH IS DIVISIBLE BY 4 IF IT IS DIVISIBLE BY 100 ITS NOT A LEAP YEAR BUT IS DIVISIBLE BY 400 IS A LEAP YEAR
+
+// let year = 2000
+
+// if((year%4===0 && year%100!==0)||(year%400===0)){
+//      console.log(`${year} is a leap year`)
+// }
+// else {
+//   console.log("Not a leap year")
+// }
+
+// 7. Check whether a number is divisible by both 3 and 5.
+// let num = 30
+// if(num%3===0 && num%5===0){
+//   console.log(num, "divisible by 3 and 5")
+// }
+// else{
+//   console.log("Not divisible");
+  
+// }
+
+
+// 8. Create a simple grading system:
+// - 90+ → A
+// - 75+ → B
+// - 50+ → C
+// - below 50 → Fail
+
+// let grade = 50
+
+// if (grade < 0 || grade > 100) {
+//   console.log("Invalid Grade");
+// }
+
+// else if(grade >= 90){
+//   console.log("A")
+// }
+// else if(grade >= 75){
+//   console.log("B")
+// }
+// else if(grade >= 50){
+//   console.log("C")
+// }
+
+// else{
+//   console.log("FAIL")
+// }
+
+// 1. Check whether a character is a vowel or consonant.
+// let letter = prompt("Enter your letter")
+// if(letter==="a"||letter==="A"||
+//   letter==="e"||letter==="I"||
+//   letter==="i"||letter==="O"||
+//   letter==="o"||letter==="E"||
+//   letter==="u"||letter==="U")
+//   {
+//   console.log("vowel")
+// }else{
+//   console.log("Consonant")
+// }
+
+
+// 2. Create a calculator using `switch` statement.
+// const operator = prompt("Enter operator (+, -, *, /):");
+
+// let a = Number(prompt("Enter Number"));
+// let b = Number(prompt("Enter Number"));
+
+// let result;
+
+// switch (operator) {
+//   case "+":
+//     result = a + b;
+//     console.log(`${a} + ${b} = ${result}`);
+//     break;
+
+//   case "-":
+//     result = a - b;
+//     console.log(`${a} - ${b} = ${result}`);
+//     break;
+
+//   case "*":
+//     result = a * b;
+//     console.log(`${a} * ${b} = ${result}`);
+//     break;
+
+//   case "/":
+//     result = a / b;
+//     console.log(`${a} / ${b} = ${result}`);
+//     break;
+
+//   default:
+//     console.log("Invalid Operator");
+// }
+// 3. Print the day name based on a number (1–7).
+
+
+// 4. Check whether a username is `"admin"` and password is `"1234"`.

@@ -181,3 +181,5 @@ The more you practice on your own, the faster your JavaScript skills will improv
 8. Create a mini ATM balance checker.
 9. Simulate a traffic light system using `switch`.
 10. Build a small marksheet generator using variables and conditionals.
+
+
