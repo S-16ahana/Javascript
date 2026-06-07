@@ -376,6 +376,40 @@
 //     console.log("Invalid Operator");
 // }
 // 3. Print the day name based on a number (1–7).
-
+// let num = Number(prompt("Enter a number between 1 - 7"));
+// switch(num){
+//   case 1:
+//     console.log("Monday");
+//     break;
+//       case 2:
+//     console.log("Tuesday");
+//     break;
+//       case 3:
+//     console.log("wedday");
+//     break;
+//       case 4:
+//     console.log("thursday");
+//     break;
+//       case 5:
+//     console.log("friday");
+//     break;
+//       case 6:
+//     console.log("saturday");
+//     break;
+//       case 7:
+//     console.log("sunday");
+//     break;
+//     default:
+//       console.log("Invalid");
+//       break;
+// }
 
 // 4. Check whether a username is `"admin"` and password is `"1234"`.
+// let username = prompt("Enter UserName");
+// let password = Number(prompt("Enter Password"));
+// if(username==="admin" && password===1234){
+//   console.log("Vaild Username and password")
+// }
+// else {
+//   console.log("Invalid user")
+// }
