@@ -413,3 +413,101 @@
 // else {
 //   console.log("Invalid user")
 // }
+
+// ## Truthy & Falsy
+
+// 1. Check whether an empty string is truthy or falsy.
+// if(""){
+//   console.log("Truthy")
+// }else{
+//   console.log("Falsy")
+// }
+
+// 2. Check whether `0` is truthy or falsy.
+// if(0){
+//   console.log("Truthy")
+// }else{
+//   console.log("Falsy")
+// }
+
+// 3. Check whether `[]` is truthy or falsy.
+
+// if([]){
+//   console.log("Truthy")
+// }else{
+//   console.log("Falsy")
+// }
+// 4. Create a variable and print `"Valid"` if it has a value otherwise print `"Invalid"`.
+// let num="Sahana" 
+// if(num){
+//   console.log("valid")
+// }
+// else{
+//   console.log("invalid")
+// }
+
+
+// ## Ternary Operator
+
+// 1. Check whether a number is even or odd using ternary operator.
+// let num = '2463892034'
+// num%2===0?console.log("EVEN"):console.log("ODD")
+
+// 2. Check whether age is above 18 using ternary operator.
+// let age = Number(prompt("Enter your Age:"))
+// age>=18?console.log("Age is above 18"):console.log("Age is below 18")
+
+// 3. Find the greater number between two values using ternary operator.
+// let a = 269;
+// let b = 50;
+// a>b?console.log("A is greater"):console.log("B is greater")
+// ---
+
+// ## Mixed Practice Questions
+
+// 1. Create a mini biodata program using variables and template literals.
+// let name="Sahana"
+// let age=24
+// let gender="Female"
+// let isSingle ="True"
+// console.log(`${name} is ${age} years old ${gender} and single that's ${isSingle}`)
+
+// 2. Calculate the area of a rectangle.
+// let length = 2
+// let width = 2
+// let area = length * width;
+// console.log(`AREA OF RECTANGLE = ${length} * ${width} = ${area}`)
+
+
+// 3. Calculate the simple interest.
+// let principle = 200000;
+// let rateOfIntrest = 3;
+// let time = 2
+
+// let SI = principle*time*rateOfIntrest/100;
+// console.log(SI)
+
+// 4. Convert temperature from Celsius to Fahrenheit.
+// let tempInC = Number(prompt("Enter temp in celsius"))
+// let Fahrenheit = tempInC*1.8+ 32
+// console.log(`${Fahrenheit} this is the converted value from celsius to fahrenheit`)
+
+// 5. Convert kilometers into meters.
+// let km = Number(prompt("Enter km"))
+// let m= km*1000
+// console.log(m)
+
+// 6. Calculate total marks and percentage of 5 subjects.
+// let sub1=24;
+// let sub2=34;
+// let sub4=49;
+// let sub3=44;
+// let sub5=50;
+
+// let totalMarks = sub1+sub2+sub3+sub4+sub5;
+// console.log(`Total Marks is ${totalMarks}`)
+
+// let percentage = (totalMarks*100)/500
+// console.log(`Total percentage is ${percentage}`)
+
+// ---
