@@ -128,3 +128,84 @@
 // 8. Write a function that returns another function.
 // 9. Create a pure function for subtraction.
 // 10. Create an impure function using global variable modification.
+
+//Arrays
+
+// // # Part 3 — Arrays Basics (36–55)
+
+// // ## Beginner
+
+// // 1. Create an array of 5 fruits.
+// let arr = ["mango","Apple","Graphes","tomato","watermelon"];
+// // 2. Print first and last element of array.
+// console.log(arr[0])
+// console.log(arr[4])
+// // 3. Find length of array.
+
+// console.log(arr.length)
+// // 4. Add element at end using `push`.
+// arr.push("sahana")
+
+// // 5. Remove last element using `pop`.
+// arr.pop()
+
+// // 6. Add element at beginning using `unshift`.
+// arr.unshift("sahana")
+
+// // 7. Remove first element using `shift`.
+// arr.shift()
+// // 8. Reverse an array.
+// arr.reverse()
+// // 9. Sort numbers ascending.
+// let arr1=[23,49,1,90,3,5]
+// arr1.sort((a,b)=>a-b)
+// // 10. Sort numbers descending.
+// arr1.sort((a,b)=>b-a)
+// // ---
+
+// ## Intermediate
+
+// 1. Use `splice` to remove elements.
+// let arra=[1,24,565,89,23,22,45,6,9]
+// arra.splice(3,1)
+
+// 2. Use `splice` to insert elements.
+// let arra=[1,24,565,89,23,22,45,6,9]
+// arra.splice(0,0,34,34)
+
+
+// 3. Use `slice` to copy array.
+// slice creates and shallow copy of original Array 
+// let fruits = ["mango","Orange","Banana","Watermelon","Graphes"]
+// let fruitsIlike = fruits.slice(0,4)
+// console.log(fruits)
+// console.log(fruitsIlike)
+// 4. Find index of an element.
+
+// console.log(fruits.indexOf("mango"))
+// 5. Check if array contains a value.
+
+// 6. Join array elements with .
+
+// let newarr= fruits.join(".")
+// 7. Merge two arrays using spread operator.
+// let arr1 = [23,65,68,35,"end"]
+// let arr2 = ["start",23,56,5,79,90]
+
+// let newarra=[...arr1,...arr2]
+
+// 8. Copy array using spread operator.
+// let newar=[...arr2]
+// 9. Find maximum value using `Math.max`.
+
+// let arrr=[23,24,46,78,34,457,23]
+// console.log(Math.max(...arrr))//NAN ??
+// 10. Swap two variables using destructuring.
+// let a = 10;
+// let b = 20;
+
+// [a, b] = [b, a];
+
+// console.log(a); // 20
+// console.log(b); // 10
+
