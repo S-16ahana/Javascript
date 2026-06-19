@@ -209,3 +209,91 @@
 // console.log(a); // 20
 // console.log(b); // 10
 
+
+
+// # Part 4 — Array Iteration Methods (56–75)
+
+// 1. Use `forEach` to print all numbers doubled.
+// let arr = [2,23,45,66,78,902,34]
+// arr.forEach(function(num){
+//   console.log(num*2);
+// })
+
+// 2. Use `map` to square all numbers.
+// let arr = [2,23,45,66,78,902,34]
+// let newarr = arr.map(function(a){
+//   console.log(a*a)
+// })
+
+// 3. Use `filter` to get even numbers.
+// let arr = [13,2,5,90,6,34,26,14]
+// arr.filter(function(n){
+//   if(n%2===0){
+//     console.log(n)
+//   }
+// })
+
+// 4. Use `reduce` to calculate sum.
+// let arr = [10,20,30,40]
+// let sum = arr.reduce(function(accu,curr){
+//    return accu+curr
+// },0);
+
+// console.log(sum)
+
+// 5. Use `reduce` to find maximum number.
+// let arra = [23,456,78,900,3]
+// let maxnum=arra.reduce(function(accc,curr){
+//     return Math.max(accc,curr)
+// },0);
+// console.log(maxnum)
+
+// 6. Use `find` to get first even number.
+// let arr = [3,67,2,5,6,8];
+// let eve = arr.find(function(n){
+//   return n%2===0 ;
+// })
+// console.log(eve)
+
+// 7. Use `findIndex` to locate number > 50.
+// let arr = [23,45,2,4,51,4,56,90]
+// let ind = arr.findIndex(ele=>ele>50)
+// console.log(ind);
+
+
+// 8. Use `some` to check if any number is negative.
+
+//  let arr = [23,45,2,4,51,4,56,90,-2]
+// let ind = arr.some(ele=>ele<0)
+// console.log(ind);
+// 9. Use `every` to check if all numbers are positive.
+//  let arr = [23,45,2,4,51,4,56,90]
+// let ind = arr.every(ele=>ele>0)
+// console.log(ind);
+
+// 10. Create array of names and convert all to uppercase.
+// let names= ["sahana","kadrolli"]
+// let uppnames=names.map(e=>e.toUpperCase(e))
+// console.log(uppnames)
+
+// 11. Filter all students with marks > 80.
+// let marks = [23,89,75,91,93,89,85]
+// let filterede = marks.filter(e=>e>80)
+// console.log(filterede)
+
+// 12. Calculate average using reduce.
+// let arr = [23,45,78,90,67]
+// const avg = arr.reduce((sum,value)=>sum+value,0)/arr.length;
+// console.log(avg);
+
+// 13. Count occurrences of numbers in array.
+// 14. Flatten nested arrays using `flat`.
+// let arr = [[1,3],[4,5],[8,9]]
+// let flattened = arr.flat()
+// console.log(flattened)
+// 15. Remove duplicates using `Set`.
+// 16. Sort array of objects by age.
+// 17. Find total price of shopping cart.
+// 18. Group users by age.
+// 19. Chain `filter` and `map`.
+// 20. Explain difference between `map`and forEach.
